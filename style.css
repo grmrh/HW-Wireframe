@@ -22,7 +22,7 @@ nav {
 }
 
 #column_container {
-
+     margin-bottom: 40px;
 }
 
 #left, #right  {
@@ -36,7 +36,6 @@ section {
     background-color: #ebebeb;
 }
 
-
 #left {
     width: 495px;
     margin-right: 10px;
@@ -46,9 +45,20 @@ section {
     width: 415px;
 }
 
+article {
+    margin-top: 5px;
+    color: #ebebeb;
+    background-color:  #777;
+}
+
+article header {
+    color: #ebebeb;
+    background-color:  #777;
+    padding: 10px;
+}
 
 aside {
-    margin: 10px 0 10px 20px;
+    margin: 0;
     text-align: center;
     background-color: #ebebeb;   
     /* height: 100%;
@@ -60,24 +70,13 @@ aside {
     overflow: hidden;
 }
 
-article {
-    color: #ebebeb;
-    background-color:  #777;
-}
-
-article header {
+.innerSection {
     color: #ebebeb;
     background-color:  #777;
     padding: 10px;
 }
 
-#innerSection {
-    color: #ebebeb;
-    background-color:  #777;
-    padding: 10px;
-}
-
-article #reverseBackground {
+article .reverseBackground {
     color: #777;
     background-color:  #ebebeb;
     margin:10px;
@@ -88,8 +87,8 @@ article #reverseBackground {
     clear: both;
 }
 
-
 footer {
+    margin-top: 30px;
     clear: both;
     overflow: auto;
 }
